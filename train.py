@@ -1,7 +1,7 @@
 
 def main():
-    with open("metrics.txt", "wb") as file:
-        file.writelines(["Test: 123"])
+    with open("metrics.txt", "a") as file:
+        file.write("Test: 123")
 
 
 if __name__ == "__main__":
