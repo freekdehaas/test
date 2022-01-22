@@ -34,5 +34,5 @@ jobs:
 
           # Create CML report
           cat metrics.txt >> report.md
-          cml publish plot.png --md --title="Confusion Matrix" >> report.md
+          cml publish Doge.jpeg --md --title="Is this working?" >> report.md
           cml send-comment report.md
